@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movie-bookmark/static/css/main.270fa2cc.css",
+    "main.js": "/movie-bookmark/static/js/main.73576ad3.js",
+    "static/media/redux.cjs": "/movie-bookmark/static/media/redux.7edfc461ab353f1712ab.cjs",
+    "index.html": "/movie-bookmark/index.html",
+    "main.270fa2cc.css.map": "/movie-bookmark/static/css/main.270fa2cc.css.map",
+    "main.73576ad3.js.map": "/movie-bookmark/static/js/main.73576ad3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.270fa2cc.css",
+    "static/js/main.73576ad3.js"
+  ]
+}
