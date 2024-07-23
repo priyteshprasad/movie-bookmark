@@ -1,0 +1,41 @@
+.movie_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .movie_item {
+    border: 1px solid var(--border);
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    img {
+      object-fit: contain;
+      width: 100%;
+    }
+  }
+}
+.poster {
+  border: 1px solid var(--border);
+  height: -webkit-fill-available;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  min-height: 300px;
+}

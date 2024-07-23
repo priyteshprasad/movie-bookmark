@@ -1,0 +1,20 @@
+.bookmark_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bookmark_item{
+    border: 1px solid var(--border);
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 200px;
+    h3{
+        font-size: 1.2rem;
+    }
+    img{
+        object-fit: contain;
+        width: 100%;
+    }
+}
+            

@@ -1,0 +1,17 @@
+nav{
+    background-color: var(--nav-background);
+    padding: 1rem;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        li{
+            margin: 0 1rem;
+            a{
+                color: var(--border);
+                text-decoration: none;
+                // Link tab internally have a tag
+            }
+        }
+    }
+}
